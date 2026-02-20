@@ -11,23 +11,53 @@ redirect_from:
 
 Education
 ======
-* B.S. in Statistics; B.S. in Mathematics with a Specialization in Economics, University of Chicago, 2026 (expected)
+* B.S. in Statistics, B.S. in Mathematics with a Specialization in Economics, University of Chicago, 2026 (expected)
 * Diploma with Honors, Punahou School, 2022
 
-Research and Professional Experience
+Work experience
 ======
-* Research Associate, Promontory Investment Research, 2025-present
+* Spring 2024: Academic Pages Collaborator
+  * Github University
+  * Duties includes: Updates and improvements to template
+  * Supervisor: The Users
 
-* Research Committee Member, Promontory Investment Research, 2024-2025
-* Co-President, Prism Consulting Group, 2024-present
-* Incoming Summer Analyst, Walmart Economics Team, Summer 2026
+* Fall 2015: Research Assistant
+  * Github University
+  * Duties included: Merging pull requests
+  * Supervisor: Professor Hub
 
-Affiliations and Service
+* Summer 2015: Research Assistant
+  * Github University
+  * Duties included: Tagging issues
+  * Supervisor: Professor Git
+  
+Skills
 ======
-* Oahu Economic Development Board, 2023-present
-* Chaminade University Economic Education Center for Excellence, 2023-present
+* Skill 1
+* Skill 2
+  * Sub-skill 2.1
+  * Sub-skill 2.2
+  * Sub-skill 2.3
+* Skill 3
 
-Selected Research
+Publications
 ======
-* Oxford Study stereotype (working paper)
-* Union utility in Hawaii (work in progress)
+  <ul>{% for post in site.publications reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+  
+Talks
+======
+  <ul>{% for post in site.talks reversed %}
+    {% include archive-single-talk-cv.html  %}
+  {% endfor %}</ul>
+  
+Teaching
+======
+  <ul>{% for post in site.teaching reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+  
+Service and leadership
+======
+* Currently signed in to 43 different slack teams
