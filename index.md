@@ -1,10 +1,7 @@
 ---
-permalink: /about/
-title: "About"
+title: "Home"
+permalink: /
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
 ---
 
 # Ryden Iwamoto's website
