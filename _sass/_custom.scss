@@ -9,6 +9,9 @@
   width: 36px;
   height: 36px;
   object-fit: cover;
+  // Adjust if your face is slightly off-center in the circular crop.
+  // Format: "x% y%" (left->right, top->bottom)
+  object-position: 50% 35%;
 }
 
 @include breakpoint($large) {
@@ -17,4 +20,3 @@
     height: 175px;
   }
 }
-
