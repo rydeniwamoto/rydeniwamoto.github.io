@@ -12,7 +12,7 @@ redirect_from:
 
 Resume
 ======
-Download: [CV (PDF)](/files/cv.pdf)
+If you'd like a PDF copy of my resume/CV, email me at riwamoto@uchicago.edu.
 
 Education
 ======

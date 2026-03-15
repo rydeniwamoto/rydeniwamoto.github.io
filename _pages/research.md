@@ -7,7 +7,7 @@ author_profile: true
 
 Working Papers
 ======
-* [Paper title](/files/paper-title.pdf) — short description.
+* Paper title — PDF coming soon.
 
 Work in Progress
 ======
