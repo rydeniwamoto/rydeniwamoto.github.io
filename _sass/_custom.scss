@@ -1,0 +1,20 @@
+/*
+  Site-specific overrides.
+  Keep this file small and focused; it is imported last from assets/css/main.scss.
+*/
+
+// Force the sidebar headshot to render as a true circle even when the source
+// image isn't square (crop via object-fit).
+.author__avatar img {
+  width: 36px;
+  height: 36px;
+  object-fit: cover;
+}
+
+@include breakpoint($large) {
+  .author__avatar img {
+    width: 175px;
+    height: 175px;
+  }
+}
+
