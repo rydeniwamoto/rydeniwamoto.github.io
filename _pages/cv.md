@@ -1,43 +1,32 @@
 ---
 layout: archive
-title: "CV"
-permalink: /cv/
+title: "Experience"
+permalink: /experience/
 author_profile: true
 redirect_from:
+  - /cv/
   - /resume
 ---
 
 {% include base_path %}
 
+Resume
+======
+Download: [CV (PDF)](/files/cv.pdf)
+
 Education
 ======
-* B.S. in Statistics, B.S. in Mathematics with a Specialization in Economics, University of Chicago, 2026 (expected)
-* Diploma with Honors, Punahou School, 2022
+* University of Chicago — B.A./B.S. (expected 2026)
+* Punahou School — Diploma with Honors (2022)
 
-Work experience
+Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Walmart Economics — Economist (starting August 2026)
+* [Role] — [Organization] ([Dates])
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+Additional Details
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
+Use this page to expand on what you did in each role (projects, methods, outcomes).
 * Skill 3
 
 Publications
