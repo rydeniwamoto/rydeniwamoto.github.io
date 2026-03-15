@@ -6,9 +6,7 @@ redirect_from:
   - /about.html
 ---
 
-# Ryden Iwamoto
-
-I am a fourth-year student at the University of Chicago studying economics. 
+I am a fourth-year at the University of Chicago studying economics. 
 My primary research interests are in the application of econometrics and causal inference
 to topics in urban and labor economics. I will join the Walmart Economics team 
 as an economist in Bentonville, Arkansas in August 2026. 
