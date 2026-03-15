@@ -7,7 +7,7 @@ author_profile: true
 
 Working Papers
 ======
-* Paper title — PDF coming soon.
+* Do short-term rentals price out long-term residents? Evidence from Hawaii.
 
 Work in Progress
 ======
