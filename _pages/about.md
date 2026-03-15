@@ -15,7 +15,6 @@ Born and raised in Honolulu, I remain deeply engaged with Hawaii's economic deve
 through my roles as a Director of the Oahu Economic Development Board and a Research 
 Associate of Chaminade University's Economic Education Center for Excellence.
 
-In my free time, I enjoy cooking, hiking, thrifting, and fishing. I'm also trying to get into 
-reading.
-
-Contact: riwamoto@uchicago.edu
+In my free time, I enjoy cooking, hiking, thrifting, and fishing. For the past two
+years, I've been trying to perfect a recipe for Okinawan Sweet Potato-Haupia pie. 
+I'm also trying to get into reading. 
