@@ -1,0 +1,56 @@
+---
+title: 'Non-parametric methods and left-digit bias'
+date: 2026-03-15
+permalink: /posts/2026/03/np-ldb/
+tags:
+---
+
+There is an emerging literature in behavioral economics on left-digit bias (LDB), 
+which is the tendency for individuals to place undue emphasis on the left-most digit(s)
+of a number in decisionmaking. This behavior has been observed and demonstrated in consumers 
+(e.g., [Lyft riders](https://academic.oup.com/restud/article-abstract/90/6/3186/7045819),
+[retailers](https://academic.oup.com/restud/article-abstract/90/5/2612/6931812),etc.),
+firms, medical practitioners (e.g., [kidney donation screening](https://onlinelibrary.wiley.com/doi/abs/10.1111/ctr.14284?casa_token=trFIO130GzgAAAAA%3AuHanSy2MuKI_xVpSTYJ4mwONwBosbKxweC4zrc-DNZ4oR_S_Glbs7kQa1Uk7L6N-MMsHjeBJox_Q)),
+and financial professionals (e.g., [traders](https://www.sciencedirect.com/science/article/abs/pii/S0167268123003645)).
+
+For practitioners (perhaps at large firms like Amazon, Uber, Walmart, etc.) looking
+to analyze this behavior in markets (e.g., in the supply or demand of certain products or services),
+several methodological challenges arise: 
+1. **Causal identification of the slope parameter**: As tends to be the case in the econometric 
+study of supply or demand, causal identification of the slope parameter (that is, 
+"true" slope of the supply or demand curve) is difficult in observational settings
+due to the simultaneity problem. Outside of a randomized or experimental setting,
+credible identification requires an instrumental variables-flavored argument, whether 
+through a typical instrument or a demand or supply shifter (depending on what slope parameter is
+being estimated).
+2. **Causal identification of the discontinuity parameter**: In settings where products
+are a collection of characteristics, causal identification of the discontinuity requires
+justification via selection on observable confounders. For instance, in "Left Digit Bias
+at Lyft," List and coauthors verify trips above and below dollar cutoffs do not differ
+significantly in their characteristics (e.g., distance, time, etc.). This task can be difficult
+when the researcher is uncertain of the data-generating process or if there are many
+covariates which significantly affect prices and/or behavior above and below the 
+integer cutoff.
+3. **Computational burden**: Access to large swaths of data is both a blessing and a curse. 
+On one hand, it permits the researcher to answer an incredibly diverse array of questions 
+most academics could only dream about. On the other hand, it is a slippery slope to 
+non-rigorous or non-robust analyses. This trap is no less applicable to LDB research than it is
+any other field of behavioral science. Consider, for instance, List and coauthors' justification
+for their two-stage least squares methodology: "We adopt the IV approach described above in [Section
+5.3] because 2SLS can be easily implemented in SQL code, which allows us to run our regressions 
+on datasets with hundreds of millions of observations." Granted, they verify their results
+against an experimental benchmark. Perhaps it is just unpleasant for people to show you their 
+underwear. In the realm of non-robustness, we may also be concerned in the difference in 
+how global sieve methods like splines estimate parameters relative to local ones like 
+local polynomial regression.
+
+
+My primary interest here is precisely this point: to explore the extent to which we observe
+threats to robustness under different methodologies in the big data regime. Motivated by 
+[Gelman's (2018)](https://statmodeling.stat.columbia.edu/2018/08/02/38160/#:~:text=The%20paper's%20key%20graph%20shows%20that%20the,recommended%20in%20some%20of%20the%20econometrics%20literature) 
+critique of [Chen et al. (2017)](https://www.pnas.org/doi/10.1073/pnas.1616784114), I simulate a case of
+supply-side left-digit bias with a fixed discontinuity size but varying levels of curvature (i.e., 
+I use a parameter $\gamma$ to alter the funcional form of the latent supply curve, where $\gamma = 0$
+corresponds to linearity, $\gamma < 0$ convexity, and $\gamma > 0$ concavity) to test 
+how different non-paramteric methods fare at estimating the discontinuity at the integer
+cutoff. 
