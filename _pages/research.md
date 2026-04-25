@@ -15,8 +15,6 @@ Working Papers
 
 **Abstract.** The statistical treatment of uncertainty in astrobiology has been largely dominated by Bayesian methods. This paper argues this dominance is grounded in a misunderstanding of the link between the philosophy of uncertainty (statistics) and observation of cosmological phenomena and is therefore morally unwarranted. We propose the "fixed observer" hypothesis; in particular, we claim human observational access to the universe is doubly constrained, both by the speed of light and the cosmic blip of human existence, and thus effectively fixed. Given these constraints, the factors characterizing the presence of extraterrestrial life are not random parameters endowed with prior distributions but instead fixed physical constants about which we have severe epistemic uncertainty. The appropriate inferential framework is then the frequentist one, assigning probabilities to procedures rather than to parameters and preserving the distinction between our not knowing of a fixed quantity and the genuine randomness of a stochastic process.
 
-<!--
 Work in Progress
 ------
-* (Add works-in-progress here.)
--->
+* Asymmetric interference from aggregation under unobserved compliance heterogeneity
