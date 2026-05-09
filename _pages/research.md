@@ -17,4 +17,6 @@ Working Papers
 
 Work in Progress
 ------
+* Pricing prestige: Michelin stars and the value of externally endowed status
 * Asymmetric interference from aggregation under unobserved compliance heterogeneity
+
