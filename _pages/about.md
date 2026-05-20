@@ -6,10 +6,9 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I am a fourth-year at the University of Chicago studying economics. 
-My primary research interests are in the application of econometrics and causal inference
-to topics in urban and labor economics. I will join the Walmart Economics team 
-as an economist in Bentonville, Arkansas in August 2026. 
+Hi! I am a fourth-year at the University of Chicago studying economics. My primary 
+research interests are in applied urban and labor economics. I will join the Walmart 
+Economics team as an economist in Bentonville, Arkansas in August 2026. 
 
 Born and raised in Honolulu, I remain deeply engaged with Hawaii's economic development 
 through my roles as a Director of the Oahu Economic Development Board and a Research 

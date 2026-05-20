@@ -17,6 +17,6 @@ Working Papers
 
 Work in Progress
 ------
-* Pricing prestige: Michelin stars and the value of externally endowed status
-* Asymmetric interference from aggregation under unobserved compliance heterogeneity
+* Does prestige distort behavior? The effect of MICHELIN stars on restaurant ratings and reviews
+* A global affine estimator for causal inference under limited overlap
 
