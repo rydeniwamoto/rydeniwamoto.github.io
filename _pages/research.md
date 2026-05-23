@@ -5,8 +5,6 @@ permalink: /research/
 author_profile: true
 ---
 
-I believe strongly in learning through doing
-
 Working Papers
 ------
 **Are short-term rentals a short-term scapegoat? Mixed evidence on the effect of vacation rentals on housing in Hawaii** ([pdf](/files/STR-STS.pdf))
