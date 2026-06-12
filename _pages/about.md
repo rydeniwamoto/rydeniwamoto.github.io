@@ -6,7 +6,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I am a fourth-year at the University of Chicago studying economics. My primary 
+Hi! I recently graduated from the University of Chicago with my B.A. in economics. My primary
 research interests are in applied urban and labor economics. I will join the Walmart 
 Economics team as an economist in Bentonville, Arkansas in August 2026. 
 
