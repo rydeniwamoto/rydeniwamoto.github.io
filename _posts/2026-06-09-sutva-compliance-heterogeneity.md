@@ -44,9 +44,9 @@ Remember the red cluster is not allowed to bounce. Of red's 30 bouncers, 18 stop
 
 If we observe the blobs at the unit-level, we can observe each blob's compliance with the bouncing policies. At the cluster-level, however, we only observe bouncing counts \\((30, 30, 30)\\) and \\((0, 39, 39)\\). The blue and yellow clusters' gain of \\(+9\\) contains both displaced and organic bouncers, but at the cluster-level we cannot discern between them. The naive comparison using cluster data of \\((-30) - (+9) = -39\\) is greater than any of the reasonable and relevant causal estimands:
 
-- Complier effect/cATT (-18): "Does blob \\(i\\) bounce anywhere?" The bouncing ban on the red cluster only caused 18 bouncing red blobs to stop since the other 12 continue bouncing elsewhere.
-- Local (cluster) effect (-33): "How many blobs stopped bouncing in the red cluster?" Red has a no ban counterfactual of 18 + 12 + 3 = 33 (the +3 comes from the organic net gain experienced by the blue and yellow clusters), so the ban's effect on red is of the same magnitude with the sign flipped.
-- Global effect (-21): "Did the ban reduce bouncing?" Looking at the total number of bouncing blobs eliminated and prevented, the red cluster ban reduced bouncing overall by -18 (complier effect) and -3 (counterfactual organic net gain in absence of ban).
+- Complier effect/cATT (-18): The bouncing ban on the red cluster only caused 18 bouncing red blobs to stop since the other 12 continue bouncing elsewhere. This is a common estimand in the economics literature akin to asking, "does blob \\(i\\) bounce anywhere?"
+- Local (cluster) effect (-33): Often we are interested in the effect of the policy on the cluster subject to that policy (e.g., the effect of the ban on the red cluster). Red has a no ban counterfactual of 18 + 12 + 3 = 33 (the +3 comes from the organic net gain experienced by the blue and yellow clusters), so the ban's effect on red is of the same magnitude with the sign flipped.
+- Global effect (-21): In some occasions, we may want to know if the policy had its intended effect on the ecosystem at large (i.e., if the no bouncing ban worked in net accounting for red blobs that stopped bouncing in the red cluster and the defectors). Looking at the total number of bouncing blobs eliminated and prevented, the red cluster ban reduced bouncing overall by -18 (complier effect) and -3 (counterfactual organic net gain in absence of ban).
 
 ## Issues With SUTVA In The Cluster Data Setting
 
