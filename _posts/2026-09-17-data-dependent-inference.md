@@ -1,5 +1,5 @@
 ---
-title: "Data-dependent inference and the discredibility revolution"
+title: "Data dependent inference in instrumental variable settings"
 date: 2026-09-17
 permalink: /posts/2026/09/data-dependent-inference/
 excerpt: "How selective inference and instrument hacking complicate statistical inference, and what researchers can do about it."
